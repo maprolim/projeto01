@@ -1,0 +1,28 @@
+
+
+
+
+
+/* Formulários de entrada Texto */
+input[type=text] {
+    border: 2px solid blue;
+    border-radius: 4px;
+
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+/* Formulários de entrada Texto "em foco" */
+input[type=text]:focus {
+    /* Borda espessa */
+    /*border: 3px solid #555;*/
+    border: 2px solid red;
+
+    /* Icone Search
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;*/
+}
